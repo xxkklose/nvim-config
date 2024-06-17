@@ -25,8 +25,8 @@ return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
   use 'folke/tokyonight.nvim' -- 主题
   use {
-    'nvim-lualine/lualine.nvim',  -- 状态栏
-    requires = { 'kyazdani42/nvim-web-devicons', opt = true }  -- 状态栏图标
+     'nvim-lualine/lualine.nvim',  -- 状态栏
+     requires = { 'kyazdani42/nvim-web-devicons', opt = true }  -- 状态栏图标
   }
   use 'christoomey/vim-tmux-navigator' -- 窗口间切换
   use 'szw/vim-maximizer' -- 最大化最小化窗口
@@ -35,7 +35,7 @@ return require('packer').startup(function(use)
   use {
     'nvim-tree/nvim-tree.lua',  -- 文档树
     requires = {
-      'nvim-tree/nvim-web-devicons', -- 文档树图标
+     'nvim-tree/nvim-web-devicons', -- 文档树图标
     }
   }
   use 'nvim-treesitter/nvim-treesitter' -- 语法高亮
